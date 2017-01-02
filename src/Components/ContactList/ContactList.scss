@@ -1,0 +1,18 @@
+.contact-list {
+	ul {
+		width: 300px;
+		margin: auto;
+		list-style: none;
+		padding-left: 0;
+	}
+	li {
+		display: block;
+		height: 50px;
+		line-height: 50px;
+		background: #f3f3f3;
+		border-bottom: 1px solid #666;
+		&:hover {
+			background: #ddd;
+		}
+	}
+}
